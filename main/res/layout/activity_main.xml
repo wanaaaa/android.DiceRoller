@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zybooks.diceroller.MainActivity"
+    android:background="@color/back_color"
+    >
+
+    <ImageView
+        android:id="@+id/dice1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/dice_one"
+        android:src="@drawable/dice_1"
+        app:tint="@color/red_900" />
+
+    <ImageView
+        android:id="@+id/dice2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/dice_one"
+        android:src="@drawable/dice_1"
+        app:tint="@color/red_900" />
+
+    <ImageView
+        android:id="@+id/dice3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/dice_one"
+        android:src="@drawable/dice_1"
+        app:tint="@color/red_900" />
+
+    <TextView
+        android:id="@+id/TotalSum"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:text="Roll the dice" />
+
+    <TextView
+        android:id="@+id/WinOrNot"
+        android:layout_width="208dp"
+        android:layout_height="37dp"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:text="Win Or not" />
+
+</LinearLayout>
